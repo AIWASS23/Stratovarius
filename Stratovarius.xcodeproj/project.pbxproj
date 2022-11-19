@@ -1,0 +1,1055 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F2753829296D1700BC1D0A /* Stratovarius.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14F2753629296D1700BC1D0A /* Stratovarius.xcdatamodeld */; };
+		4E24B6DD29147D7600405D06 /* StratovariusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E24B6DC29147D7600405D06 /* StratovariusApp.swift */; };
+		4E24B6DF29147D7600405D06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E24B6DE29147D7600405D06 /* ContentView.swift */; };
+		4E24B6E129147D7700405D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E24B6E029147D7700405D06 /* Assets.xcassets */; };
+		4E24B6E429147D7700405D06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E24B6E329147D7700405D06 /* Preview Assets.xcassets */; };
+		4E24B6E629147D7700405D06 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E24B6E529147D7700405D06 /* Persistence.swift */; };
+		4E24B6F329147D7700405D06 /* StratovariusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E24B6F229147D7700405D06 /* StratovariusTests.swift */; };
+		4E51E584291EFC750007887B /* HealthLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E583291EFC750007887B /* HealthLogView.swift */; };
+		4E51E586291EFC820007887B /* HealthLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E585291EFC820007887B /* HealthLogViewModel.swift */; };
+		4E51E588291EFCCF0007887B /* HealthLogValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E587291EFCCF0007887B /* HealthLogValue.swift */; };
+		4E51E58A291EFD180007887B /* HealthLogKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E589291EFD180007887B /* HealthLogKind.swift */; };
+		4E51E58C291EFDA10007887B /* MedicineValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E58B291EFDA10007887B /* MedicineValue.swift */; };
+		4E51E58E291EFE440007887B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E58D291EFE440007887B /* User.swift */; };
+		4E51E590291F01F80007887B /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E58F291F01F80007887B /* StringExtensions.swift */; };
+		4E51E594291F08780007887B /* HealthLogSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E593291F08780007887B /* HealthLogSingleView.swift */; };
+		4E51E596291F089D0007887B /* HealthLogSingleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E595291F089D0007887B /* HealthLogSingleViewModel.swift */; };
+		4E51E598291F122C0007887B /* HealthLogForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E597291F122C0007887B /* HealthLogForm.swift */; };
+		4E51E59A291F12370007887B /* HealthLogFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E599291F12370007887B /* HealthLogFormViewModel.swift */; };
+		4E51E59C291F22480007887B /* MultiSelectSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E59B291F22480007887B /* MultiSelectSearch.swift */; };
+		4E51E5A0291F25D90007887B /* ListSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51E59F291F25D90007887B /* ListSelection.swift */; };
+		4E79464A291AD3FC000C356C /* InputComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E794649291AD3FC000C356C /* InputComponent.swift */; };
+		4E79464C291AD58F000C356C /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E79464B291AD58F000C356C /* SignInViewModel.swift */; };
+		4E794651291AE000000C356C /* CheckboxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E794650291AE000000C356C /* CheckboxComponent.swift */; };
+		4EE651B0291971EA007F115A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE651AF291971EA007F115A /* MainView.swift */; };
+		4EE651B32919724A007F115A /* MainDevView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE651B22919724A007F115A /* MainDevView.swift */; };
+		4EE651B62919734F007F115A /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE651B52919734F007F115A /* ButtonComponent.swift */; };
+		4EE651B92919769D007F115A /* GuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE651B82919769D007F115A /* GuestView.swift */; };
+		4EE651C129197D2E007F115A /* AppViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE651C029197D2E007F115A /* AppViews.swift */; };
+		4EE651C32919BF82007F115A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE651C22919BF82007F115A /* SignInView.swift */; };
+		4EE651C52919BF8A007F115A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE651C42919BF8A007F115A /* SignUpView.swift */; };
+		4EE651CA2919D310007F115A /* ShakeGestureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE651C92919D310007F115A /* ShakeGestureManager.swift */; };
+		4EFC7435291AE32D0086A6AB /* JumbotronComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7434291AE32D0086A6AB /* JumbotronComponent.swift */; };
+		4EFC7437291AE6C00086A6AB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7436291AE6C00086A6AB /* MainViewModel.swift */; };
+		4EFC743A291AEA6F0086A6AB /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7439291AEA6F0086A6AB /* SignUpViewModel.swift */; };
+		4EFC743C291AF64C0086A6AB /* SelectComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC743B291AF64C0086A6AB /* SelectComponent.swift */; };
+		4EFC743E291AF6920086A6AB /* WeightUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC743D291AF6920086A6AB /* WeightUnits.swift */; };
+		4EFC7441291B06920086A6AB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7440291B06920086A6AB /* DashboardView.swift */; };
+		4EFC7447291B0B990086A6AB /* MyPets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7446291B0B990086A6AB /* MyPets.swift */; };
+		4EFC744A291B0BF20086A6AB /* PetSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7449291B0BF20086A6AB /* PetSingle.swift */; };
+		4EFC744C291B0C310086A6AB /* PetKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC744B291B0C310086A6AB /* PetKind.swift */; };
+		4EFC744E291B0C5F0086A6AB /* WeightValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC744D291B0C5F0086A6AB /* WeightValue.swift */; };
+		4EFC7450291B0CE60086A6AB /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC744F291B0CE60086A6AB /* Breed.swift */; };
+		4EFC7452291B0E370086A6AB /* PetCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7451291B0E370086A6AB /* PetCardComponent.swift */; };
+		4EFC7455291B0E4E0086A6AB /* ApiPets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7454291B0E4E0086A6AB /* ApiPets.swift */; };
+		4EFC7458291B103F0086A6AB /* AvatarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7457291B103F0086A6AB /* AvatarComponent.swift */; };
+		4EFC745B291B1A370086A6AB /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC745A291B1A370086A6AB /* DateExtensions.swift */; };
+		4EFC745D291B1A630086A6AB /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC745C291B1A630086A6AB /* DateFormatter.swift */; };
+		4EFC745F291B1ACD0086A6AB /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC745E291B1ACD0086A6AB /* TimeInterval.swift */; };
+		4EFC7461291B1AE60086A6AB /* TimeInvervalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7460291B1AE60086A6AB /* TimeInvervalFormatter.swift */; };
+		4EFC7463291C30260086A6AB /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7462291C30260086A6AB /* DashboardViewModel.swift */; };
+		4EFC7466291C3F990086A6AB /* PetForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7465291C3F990086A6AB /* PetForm.swift */; };
+		4EFC7468291C403C0086A6AB /* PetFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7467291C403C0086A6AB /* PetFormViewModel.swift */; };
+		4EFC746A291C43B00086A6AB /* SelectSearchComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7469291C43B00086A6AB /* SelectSearchComponent.swift */; };
+		4EFC746C291C53E70086A6AB /* SequenceTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC746B291C53E70086A6AB /* SequenceTypeExtensions.swift */; };
+		4EFC746E291C76660086A6AB /* DashboardSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC746D291C76660086A6AB /* DashboardSingleView.swift */; };
+		4EFC7470291C76FD0086A6AB /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC746F291C76FD0086A6AB /* CardComponent.swift */; };
+		4EFC7473291C83B10086A6AB /* PetDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7472291C83B10086A6AB /* PetDto.swift */; };
+		4EFC7475291C85AB0086A6AB /* InputDateComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7474291C85AB0086A6AB /* InputDateComponent.swift */; };
+		4EFC7477291D8CC60086A6AB /* DashboardWeightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7476291D8CC60086A6AB /* DashboardWeightsView.swift */; };
+		4EFC7479291D8D0E0086A6AB /* DashboardWeightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7478291D8D0E0086A6AB /* DashboardWeightViewModel.swift */; };
+		4EFC747D291D9AE50086A6AB /* SummaryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC747C291D9AE50086A6AB /* SummaryComponent.swift */; };
+		4EFC747F291D9B100086A6AB /* NumberExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC747E291D9B100086A6AB /* NumberExtensions.swift */; };
+		4EFC7481291D9B3C0086A6AB /* DateIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7480291D9B3C0086A6AB /* DateIntervalExtensions.swift */; };
+		4EFC7483291D9B5A0086A6AB /* DateIntervalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7482291D9B5A0086A6AB /* DateIntervalFormatter.swift */; };
+		4EFC7485291DA4F90086A6AB /* WeightForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7484291DA4F90086A6AB /* WeightForm.swift */; };
+		4EFC7487291DA5040086A6AB /* WeightFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7486291DA5040086A6AB /* WeightFormViewModel.swift */; };
+		4EFC7489291DA75C0086A6AB /* WeightDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC7488291DA75C0086A6AB /* WeightDto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E24B6EF29147D7700405D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E24B6D129147D7600405D06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E24B6D829147D7600405D06;
+			remoteInfo = Stratovarius;
+		};
+		4E24B6F929147D7700405D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E24B6D129147D7600405D06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E24B6D829147D7600405D06;
+			remoteInfo = Stratovarius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F2753729296D1700BC1D0A /* Stratovarius.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stratovarius.xcdatamodel; sourceTree = "<group>"; };
+		4E24B6D929147D7600405D06 /* Stratovarius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stratovarius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E24B6DC29147D7600405D06 /* StratovariusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratovariusApp.swift; sourceTree = "<group>"; };
+		4E24B6DE29147D7600405D06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E24B6E029147D7700405D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E24B6E329147D7700405D06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E24B6E529147D7700405D06 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4E24B6EE29147D7700405D06 /* StratovariusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StratovariusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E24B6F229147D7700405D06 /* StratovariusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratovariusTests.swift; sourceTree = "<group>"; };
+		4E24B6F829147D7700405D06 /* StratovariusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StratovariusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E24B6FC29147D7700405D06 /* StratovariusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratovariusUITests.swift; sourceTree = "<group>"; };
+		4E24B6FE29147D7700405D06 /* StratovariusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratovariusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E51E583291EFC750007887B /* HealthLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLogView.swift; sourceTree = "<group>"; };
+		4E51E585291EFC820007887B /* HealthLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLogViewModel.swift; sourceTree = "<group>"; };
+		4E51E587291EFCCF0007887B /* HealthLogValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLogValue.swift; sourceTree = "<group>"; };
+		4E51E589291EFD180007887B /* HealthLogKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLogKind.swift; sourceTree = "<group>"; };
+		4E51E58B291EFDA10007887B /* MedicineValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineValue.swift; sourceTree = "<group>"; };
+		4E51E58D291EFE440007887B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4E51E58F291F01F80007887B /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		4E51E593291F08780007887B /* HealthLogSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLogSingleView.swift; sourceTree = "<group>"; };
+		4E51E595291F089D0007887B /* HealthLogSingleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLogSingleViewModel.swift; sourceTree = "<group>"; };
+		4E51E597291F122C0007887B /* HealthLogForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLogForm.swift; sourceTree = "<group>"; };
+		4E51E599291F12370007887B /* HealthLogFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLogFormViewModel.swift; sourceTree = "<group>"; };
+		4E51E59B291F22480007887B /* MultiSelectSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectSearch.swift; sourceTree = "<group>"; };
+		4E51E59F291F25D90007887B /* ListSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelection.swift; sourceTree = "<group>"; };
+		4E794649291AD3FC000C356C /* InputComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputComponent.swift; sourceTree = "<group>"; };
+		4E79464B291AD58F000C356C /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		4E794650291AE000000C356C /* CheckboxComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxComponent.swift; sourceTree = "<group>"; };
+		4EE651AF291971EA007F115A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4EE651B22919724A007F115A /* MainDevView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDevView.swift; sourceTree = "<group>"; };
+		4EE651B52919734F007F115A /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
+		4EE651B82919769D007F115A /* GuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestView.swift; sourceTree = "<group>"; };
+		4EE651C029197D2E007F115A /* AppViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViews.swift; sourceTree = "<group>"; };
+		4EE651C22919BF82007F115A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		4EE651C42919BF8A007F115A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		4EE651C92919D310007F115A /* ShakeGestureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGestureManager.swift; sourceTree = "<group>"; };
+		4EFC7434291AE32D0086A6AB /* JumbotronComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumbotronComponent.swift; sourceTree = "<group>"; };
+		4EFC7436291AE6C00086A6AB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		4EFC7439291AEA6F0086A6AB /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		4EFC743B291AF64C0086A6AB /* SelectComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectComponent.swift; sourceTree = "<group>"; };
+		4EFC743D291AF6920086A6AB /* WeightUnits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightUnits.swift; sourceTree = "<group>"; };
+		4EFC7440291B06920086A6AB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		4EFC7446291B0B990086A6AB /* MyPets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPets.swift; sourceTree = "<group>"; };
+		4EFC7449291B0BF20086A6AB /* PetSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSingle.swift; sourceTree = "<group>"; };
+		4EFC744B291B0C310086A6AB /* PetKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetKind.swift; sourceTree = "<group>"; };
+		4EFC744D291B0C5F0086A6AB /* WeightValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightValue.swift; sourceTree = "<group>"; };
+		4EFC744F291B0CE60086A6AB /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		4EFC7451291B0E370086A6AB /* PetCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCardComponent.swift; sourceTree = "<group>"; };
+		4EFC7454291B0E4E0086A6AB /* ApiPets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPets.swift; sourceTree = "<group>"; };
+		4EFC7457291B103F0086A6AB /* AvatarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarComponent.swift; sourceTree = "<group>"; };
+		4EFC745A291B1A370086A6AB /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		4EFC745C291B1A630086A6AB /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		4EFC745E291B1ACD0086A6AB /* TimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
+		4EFC7460291B1AE60086A6AB /* TimeInvervalFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInvervalFormatter.swift; sourceTree = "<group>"; };
+		4EFC7462291C30260086A6AB /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		4EFC7465291C3F990086A6AB /* PetForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetForm.swift; sourceTree = "<group>"; };
+		4EFC7467291C403C0086A6AB /* PetFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFormViewModel.swift; sourceTree = "<group>"; };
+		4EFC7469291C43B00086A6AB /* SelectSearchComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSearchComponent.swift; sourceTree = "<group>"; };
+		4EFC746B291C53E70086A6AB /* SequenceTypeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceTypeExtensions.swift; sourceTree = "<group>"; };
+		4EFC746D291C76660086A6AB /* DashboardSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardSingleView.swift; sourceTree = "<group>"; };
+		4EFC746F291C76FD0086A6AB /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
+		4EFC7472291C83B10086A6AB /* PetDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDto.swift; sourceTree = "<group>"; };
+		4EFC7474291C85AB0086A6AB /* InputDateComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDateComponent.swift; sourceTree = "<group>"; };
+		4EFC7476291D8CC60086A6AB /* DashboardWeightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardWeightsView.swift; sourceTree = "<group>"; };
+		4EFC7478291D8D0E0086A6AB /* DashboardWeightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardWeightViewModel.swift; sourceTree = "<group>"; };
+		4EFC747C291D9AE50086A6AB /* SummaryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryComponent.swift; sourceTree = "<group>"; };
+		4EFC747E291D9B100086A6AB /* NumberExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtensions.swift; sourceTree = "<group>"; };
+		4EFC7480291D9B3C0086A6AB /* DateIntervalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIntervalExtensions.swift; sourceTree = "<group>"; };
+		4EFC7482291D9B5A0086A6AB /* DateIntervalFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIntervalFormatter.swift; sourceTree = "<group>"; };
+		4EFC7484291DA4F90086A6AB /* WeightForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightForm.swift; sourceTree = "<group>"; };
+		4EFC7486291DA5040086A6AB /* WeightFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightFormViewModel.swift; sourceTree = "<group>"; };
+		4EFC7488291DA75C0086A6AB /* WeightDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightDto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E24B6D629147D7600405D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E24B6EB29147D7700405D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E24B6F529147D7700405D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E24B6D029147D7600405D06 = {
+			isa = PBXGroup;
+			children = (
+				14F2753629296D1700BC1D0A /* Stratovarius.xcdatamodeld */,
+				4E51E59D291F25960007887B /* Playgrounds */,
+				4E24B6DB29147D7600405D06 /* Stratovarius */,
+				4E24B6F129147D7700405D06 /* StratovariusTests */,
+				4E24B6FB29147D7700405D06 /* StratovariusUITests */,
+				4E24B6DA29147D7600405D06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E24B6DA29147D7600405D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E24B6D929147D7600405D06 /* Stratovarius.app */,
+				4E24B6EE29147D7700405D06 /* StratovariusTests.xctest */,
+				4E24B6F829147D7700405D06 /* StratovariusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E24B6DB29147D7600405D06 /* Stratovarius */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC7464291C3F900086A6AB /* Form */,
+				4EFC7459291B1A2B0086A6AB /* Utils */,
+				4EFC7453291B0E430086A6AB /* Mocks */,
+				4EFC7445291B0B860086A6AB /* DataDisplays */,
+				4EFC7438291AE7FA0086A6AB /* Models */,
+				4EE651C82919D2FE007F115A /* Gestures */,
+				4EE651B429197343007F115A /* Components */,
+				4EE651AD291971CD007F115A /* App */,
+				4E24B6DC29147D7600405D06 /* StratovariusApp.swift */,
+				4E24B6DE29147D7600405D06 /* ContentView.swift */,
+				4E24B6E029147D7700405D06 /* Assets.xcassets */,
+				4E24B6E529147D7700405D06 /* Persistence.swift */,
+				4E24B6E229147D7700405D06 /* Preview Content */,
+			);
+			path = Stratovarius;
+			sourceTree = "<group>";
+		};
+		4E24B6E229147D7700405D06 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E24B6E329147D7700405D06 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E24B6F129147D7700405D06 /* StratovariusTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E24B6F229147D7700405D06 /* StratovariusTests.swift */,
+			);
+			path = StratovariusTests;
+			sourceTree = "<group>";
+		};
+		4E24B6FB29147D7700405D06 /* StratovariusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E24B6FC29147D7700405D06 /* StratovariusUITests.swift */,
+				4E24B6FE29147D7700405D06 /* StratovariusUITestsLaunchTests.swift */,
+			);
+			path = StratovariusUITests;
+			sourceTree = "<group>";
+		};
+		4E51E591291F08560007887B /* HealthLog */ = {
+			isa = PBXGroup;
+			children = (
+				4E51E583291EFC750007887B /* HealthLogView.swift */,
+				4E51E585291EFC820007887B /* HealthLogViewModel.swift */,
+				4E51E593291F08780007887B /* HealthLogSingleView.swift */,
+				4E51E595291F089D0007887B /* HealthLogSingleViewModel.swift */,
+			);
+			path = HealthLog;
+			sourceTree = "<group>";
+		};
+		4E51E592291F08620007887B /* WeightView */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC7476291D8CC60086A6AB /* DashboardWeightsView.swift */,
+				4EFC7478291D8D0E0086A6AB /* DashboardWeightViewModel.swift */,
+			);
+			path = WeightView;
+			sourceTree = "<group>";
+		};
+		4E51E59D291F25960007887B /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				4E51E59F291F25D90007887B /* ListSelection.swift */,
+			);
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		4EE651AD291971CD007F115A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC743F291B06830086A6AB /* DashboardView */,
+				4EE651B729197691007F115A /* GuestView */,
+				4EE651B129197234007F115A /* MainDev */,
+				4EE651AE291971D7007F115A /* Main */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4EE651AE291971D7007F115A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4EE651AF291971EA007F115A /* MainView.swift */,
+				4EFC7436291AE6C00086A6AB /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4EE651B129197234007F115A /* MainDev */ = {
+			isa = PBXGroup;
+			children = (
+				4EE651B22919724A007F115A /* MainDevView.swift */,
+			);
+			path = MainDev;
+			sourceTree = "<group>";
+		};
+		4EE651B429197343007F115A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4EE651B52919734F007F115A /* ButtonComponent.swift */,
+				4E794649291AD3FC000C356C /* InputComponent.swift */,
+				4E794650291AE000000C356C /* CheckboxComponent.swift */,
+				4EFC7434291AE32D0086A6AB /* JumbotronComponent.swift */,
+				4EFC743B291AF64C0086A6AB /* SelectComponent.swift */,
+				4EFC7451291B0E370086A6AB /* PetCardComponent.swift */,
+				4EFC7457291B103F0086A6AB /* AvatarComponent.swift */,
+				4EFC7469291C43B00086A6AB /* SelectSearchComponent.swift */,
+				4EFC746F291C76FD0086A6AB /* CardComponent.swift */,
+				4EFC7474291C85AB0086A6AB /* InputDateComponent.swift */,
+				4EFC747C291D9AE50086A6AB /* SummaryComponent.swift */,
+				4E51E59B291F22480007887B /* MultiSelectSearch.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4EE651B729197691007F115A /* GuestView */ = {
+			isa = PBXGroup;
+			children = (
+				4EE651B82919769D007F115A /* GuestView.swift */,
+				4EE651C22919BF82007F115A /* SignInView.swift */,
+				4E79464B291AD58F000C356C /* SignInViewModel.swift */,
+				4EE651C42919BF8A007F115A /* SignUpView.swift */,
+				4EFC7439291AEA6F0086A6AB /* SignUpViewModel.swift */,
+			);
+			path = GuestView;
+			sourceTree = "<group>";
+		};
+		4EE651C82919D2FE007F115A /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				4EE651C92919D310007F115A /* ShakeGestureManager.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		4EFC7438291AE7FA0086A6AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC7448291B0BD00086A6AB /* Api */,
+				4EFC7471291C839A0086A6AB /* Dto */,
+				4EE651C029197D2E007F115A /* AppViews.swift */,
+				4EFC743D291AF6920086A6AB /* WeightUnits.swift */,
+				4EFC744B291B0C310086A6AB /* PetKind.swift */,
+				4E51E589291EFD180007887B /* HealthLogKind.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4EFC743F291B06830086A6AB /* DashboardView */ = {
+			isa = PBXGroup;
+			children = (
+				4E51E592291F08620007887B /* WeightView */,
+				4E51E591291F08560007887B /* HealthLog */,
+				4EFC7440291B06920086A6AB /* DashboardView.swift */,
+				4EFC7462291C30260086A6AB /* DashboardViewModel.swift */,
+				4EFC746D291C76660086A6AB /* DashboardSingleView.swift */,
+			);
+			path = DashboardView;
+			sourceTree = "<group>";
+		};
+		4EFC7445291B0B860086A6AB /* DataDisplays */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC7446291B0B990086A6AB /* MyPets.swift */,
+			);
+			path = DataDisplays;
+			sourceTree = "<group>";
+		};
+		4EFC7448291B0BD00086A6AB /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC7449291B0BF20086A6AB /* PetSingle.swift */,
+				4EFC744D291B0C5F0086A6AB /* WeightValue.swift */,
+				4EFC744F291B0CE60086A6AB /* Breed.swift */,
+				4E51E587291EFCCF0007887B /* HealthLogValue.swift */,
+				4E51E58B291EFDA10007887B /* MedicineValue.swift */,
+				4E51E58D291EFE440007887B /* User.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		4EFC7453291B0E430086A6AB /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC7454291B0E4E0086A6AB /* ApiPets.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		4EFC7459291B1A2B0086A6AB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC745A291B1A370086A6AB /* DateExtensions.swift */,
+				4EFC745C291B1A630086A6AB /* DateFormatter.swift */,
+				4EFC745E291B1ACD0086A6AB /* TimeInterval.swift */,
+				4EFC7460291B1AE60086A6AB /* TimeInvervalFormatter.swift */,
+				4EFC746B291C53E70086A6AB /* SequenceTypeExtensions.swift */,
+				4EFC747E291D9B100086A6AB /* NumberExtensions.swift */,
+				4EFC7480291D9B3C0086A6AB /* DateIntervalExtensions.swift */,
+				4EFC7482291D9B5A0086A6AB /* DateIntervalFormatter.swift */,
+				4E51E58F291F01F80007887B /* StringExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4EFC7464291C3F900086A6AB /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC7465291C3F990086A6AB /* PetForm.swift */,
+				4EFC7467291C403C0086A6AB /* PetFormViewModel.swift */,
+				4EFC7484291DA4F90086A6AB /* WeightForm.swift */,
+				4EFC7486291DA5040086A6AB /* WeightFormViewModel.swift */,
+				4E51E597291F122C0007887B /* HealthLogForm.swift */,
+				4E51E599291F12370007887B /* HealthLogFormViewModel.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		4EFC7471291C839A0086A6AB /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC7472291C83B10086A6AB /* PetDto.swift */,
+				4EFC7488291DA75C0086A6AB /* WeightDto.swift */,
+			);
+			path = Dto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E24B6D829147D7600405D06 /* Stratovarius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E24B70229147D7700405D06 /* Build configuration list for PBXNativeTarget "Stratovarius" */;
+			buildPhases = (
+				4E24B6D529147D7600405D06 /* Sources */,
+				4E24B6D629147D7600405D06 /* Frameworks */,
+				4E24B6D729147D7600405D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stratovarius;
+			productName = Stratovarius;
+			productReference = 4E24B6D929147D7600405D06 /* Stratovarius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E24B6ED29147D7700405D06 /* StratovariusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E24B70529147D7700405D06 /* Build configuration list for PBXNativeTarget "StratovariusTests" */;
+			buildPhases = (
+				932A5DB46480F87832693DBB /* [CP] Check Pods Manifest.lock */,
+				4E24B6EA29147D7700405D06 /* Sources */,
+				4E24B6EB29147D7700405D06 /* Frameworks */,
+				4E24B6EC29147D7700405D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E24B6F029147D7700405D06 /* PBXTargetDependency */,
+			);
+			name = StratovariusTests;
+			productName = StratovariusTests;
+			productReference = 4E24B6EE29147D7700405D06 /* StratovariusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E24B6F729147D7700405D06 /* StratovariusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E24B70829147D7700405D06 /* Build configuration list for PBXNativeTarget "StratovariusUITests" */;
+			buildPhases = (
+				EC5D4F6771D94E28D55C2167 /* [CP] Check Pods Manifest.lock */,
+				4E24B6F429147D7700405D06 /* Sources */,
+				4E24B6F529147D7700405D06 /* Frameworks */,
+				4E24B6F629147D7700405D06 /* Resources */,
+				26831C5F1749B049F4FB9FBF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E24B6FA29147D7700405D06 /* PBXTargetDependency */,
+			);
+			name = StratovariusUITests;
+			productName = StratovariusUITests;
+			productReference = 4E24B6F829147D7700405D06 /* StratovariusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E24B6D129147D7600405D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4E24B6D829147D7600405D06 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					4E24B6ED29147D7700405D06 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 4E24B6D829147D7600405D06;
+					};
+					4E24B6F729147D7700405D06 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 4E24B6D829147D7600405D06;
+					};
+				};
+			};
+			buildConfigurationList = 4E24B6D429147D7600405D06 /* Build configuration list for PBXProject "Stratovarius" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				pl,
+				Base,
+			);
+			mainGroup = 4E24B6D029147D7600405D06;
+			productRefGroup = 4E24B6DA29147D7600405D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E24B6D829147D7600405D06 /* Stratovarius */,
+				4E24B6ED29147D7700405D06 /* StratovariusTests */,
+				4E24B6F729147D7700405D06 /* StratovariusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E24B6D729147D7600405D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E24B6E429147D7700405D06 /* Preview Assets.xcassets in Resources */,
+				4E24B6E129147D7700405D06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E24B6EC29147D7700405D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E24B6F629147D7700405D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26831C5F1749B049F4FB9FBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wolfie-WolfieUITests/Pods-Wolfie-WolfieUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wolfie-WolfieUITests/Pods-Wolfie-WolfieUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wolfie-WolfieUITests/Pods-Wolfie-WolfieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		932A5DB46480F87832693DBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WolfieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5D4F6771D94E28D55C2167 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wolfie-WolfieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E24B6D529147D7600405D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E24B6E629147D7700405D06 /* Persistence.swift in Sources */,
+				4EFC745F291B1ACD0086A6AB /* TimeInterval.swift in Sources */,
+				4EFC747D291D9AE50086A6AB /* SummaryComponent.swift in Sources */,
+				4E51E596291F089D0007887B /* HealthLogSingleViewModel.swift in Sources */,
+				4EFC746A291C43B00086A6AB /* SelectSearchComponent.swift in Sources */,
+				4EFC7470291C76FD0086A6AB /* CardComponent.swift in Sources */,
+				4EFC7458291B103F0086A6AB /* AvatarComponent.swift in Sources */,
+				4EFC7479291D8D0E0086A6AB /* DashboardWeightViewModel.swift in Sources */,
+				14F2753829296D1700BC1D0A /* Stratovarius.xcdatamodeld in Sources */,
+				4EFC7455291B0E4E0086A6AB /* ApiPets.swift in Sources */,
+				4E79464A291AD3FC000C356C /* InputComponent.swift in Sources */,
+				4EFC7468291C403C0086A6AB /* PetFormViewModel.swift in Sources */,
+				4E51E58C291EFDA10007887B /* MedicineValue.swift in Sources */,
+				4EFC7473291C83B10086A6AB /* PetDto.swift in Sources */,
+				4E51E59C291F22480007887B /* MultiSelectSearch.swift in Sources */,
+				4E51E588291EFCCF0007887B /* HealthLogValue.swift in Sources */,
+				4E51E59A291F12370007887B /* HealthLogFormViewModel.swift in Sources */,
+				4E51E590291F01F80007887B /* StringExtensions.swift in Sources */,
+				4EFC743C291AF64C0086A6AB /* SelectComponent.swift in Sources */,
+				4EFC7483291D9B5A0086A6AB /* DateIntervalFormatter.swift in Sources */,
+				4EE651CA2919D310007F115A /* ShakeGestureManager.swift in Sources */,
+				4EFC746C291C53E70086A6AB /* SequenceTypeExtensions.swift in Sources */,
+				4EFC743A291AEA6F0086A6AB /* SignUpViewModel.swift in Sources */,
+				4EFC7477291D8CC60086A6AB /* DashboardWeightsView.swift in Sources */,
+				4EFC7466291C3F990086A6AB /* PetForm.swift in Sources */,
+				4E24B6DF29147D7600405D06 /* ContentView.swift in Sources */,
+				4EFC7452291B0E370086A6AB /* PetCardComponent.swift in Sources */,
+				4E51E584291EFC750007887B /* HealthLogView.swift in Sources */,
+				4EFC744C291B0C310086A6AB /* PetKind.swift in Sources */,
+				4EFC745B291B1A370086A6AB /* DateExtensions.swift in Sources */,
+				4EE651C129197D2E007F115A /* AppViews.swift in Sources */,
+				4EFC7435291AE32D0086A6AB /* JumbotronComponent.swift in Sources */,
+				4E794651291AE000000C356C /* CheckboxComponent.swift in Sources */,
+				4EFC7485291DA4F90086A6AB /* WeightForm.swift in Sources */,
+				4EFC7441291B06920086A6AB /* DashboardView.swift in Sources */,
+				4EFC747F291D9B100086A6AB /* NumberExtensions.swift in Sources */,
+				4EFC7461291B1AE60086A6AB /* TimeInvervalFormatter.swift in Sources */,
+				4EFC746E291C76660086A6AB /* DashboardSingleView.swift in Sources */,
+				4EFC744E291B0C5F0086A6AB /* WeightValue.swift in Sources */,
+				4EFC7437291AE6C00086A6AB /* MainViewModel.swift in Sources */,
+				4EFC7450291B0CE60086A6AB /* Breed.swift in Sources */,
+				4EE651C32919BF82007F115A /* SignInView.swift in Sources */,
+				4EE651C52919BF8A007F115A /* SignUpView.swift in Sources */,
+				4EFC745D291B1A630086A6AB /* DateFormatter.swift in Sources */,
+				4E79464C291AD58F000C356C /* SignInViewModel.swift in Sources */,
+				4EFC7463291C30260086A6AB /* DashboardViewModel.swift in Sources */,
+				4EE651B0291971EA007F115A /* MainView.swift in Sources */,
+				4E51E598291F122C0007887B /* HealthLogForm.swift in Sources */,
+				4E51E5A0291F25D90007887B /* ListSelection.swift in Sources */,
+				4EFC7487291DA5040086A6AB /* WeightFormViewModel.swift in Sources */,
+				4EFC743E291AF6920086A6AB /* WeightUnits.swift in Sources */,
+				4EFC7481291D9B3C0086A6AB /* DateIntervalExtensions.swift in Sources */,
+				4EE651B62919734F007F115A /* ButtonComponent.swift in Sources */,
+				4EFC7475291C85AB0086A6AB /* InputDateComponent.swift in Sources */,
+				4EE651B92919769D007F115A /* GuestView.swift in Sources */,
+				4E51E58A291EFD180007887B /* HealthLogKind.swift in Sources */,
+				4EFC7447291B0B990086A6AB /* MyPets.swift in Sources */,
+				4E24B6DD29147D7600405D06 /* StratovariusApp.swift in Sources */,
+				4EE651B32919724A007F115A /* MainDevView.swift in Sources */,
+				4E51E594291F08780007887B /* HealthLogSingleView.swift in Sources */,
+				4EFC7489291DA75C0086A6AB /* WeightDto.swift in Sources */,
+				4EFC744A291B0BF20086A6AB /* PetSingle.swift in Sources */,
+				4E51E586291EFC820007887B /* HealthLogViewModel.swift in Sources */,
+				4E51E58E291EFE440007887B /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E24B6EA29147D7700405D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E24B6F329147D7700405D06 /* StratovariusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E24B6F429147D7700405D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E24B6F029147D7700405D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E24B6D829147D7600405D06 /* Stratovarius */;
+			targetProxy = 4E24B6EF29147D7700405D06 /* PBXContainerItemProxy */;
+		};
+		4E24B6FA29147D7700405D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E24B6D829147D7600405D06 /* Stratovarius */;
+			targetProxy = 4E24B6F929147D7700405D06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E24B70029147D7700405D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E24B70129147D7700405D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E24B70329147D7700405D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stratovarius/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wolfie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Stratovarius.app;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Stratovarius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E24B70429147D7700405D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stratovarius/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stratovarius/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Stratovarius.app;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Stratovarius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E24B70629147D7700405D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Stratovarius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stratovarius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stratovarius";
+			};
+			name = Debug;
+		};
+		4E24B70729147D7700405D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Stratovarius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stratovarius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stratovarius";
+			};
+			name = Release;
+		};
+		4E24B70929147D7700405D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Stratovarius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wolfie;
+			};
+			name = Debug;
+		};
+		4E24B70A29147D7700405D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Stratovarius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wolfie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E24B6D429147D7600405D06 /* Build configuration list for PBXProject "Stratovarius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E24B70029147D7700405D06 /* Debug */,
+				4E24B70129147D7700405D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E24B70229147D7700405D06 /* Build configuration list for PBXNativeTarget "Stratovarius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E24B70329147D7700405D06 /* Debug */,
+				4E24B70429147D7700405D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E24B70529147D7700405D06 /* Build configuration list for PBXNativeTarget "StratovariusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E24B70629147D7700405D06 /* Debug */,
+				4E24B70729147D7700405D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E24B70829147D7700405D06 /* Build configuration list for PBXNativeTarget "StratovariusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E24B70929147D7700405D06 /* Debug */,
+				4E24B70A29147D7700405D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		14F2753629296D1700BC1D0A /* Stratovarius.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14F2753729296D1700BC1D0A /* Stratovarius.xcdatamodel */,
+			);
+			currentVersion = 14F2753729296D1700BC1D0A /* Stratovarius.xcdatamodel */;
+			path = Stratovarius.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4E24B6D129147D7600405D06 /* Project object */;
+}
