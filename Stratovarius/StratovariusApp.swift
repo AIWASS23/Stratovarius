@@ -1,5 +1,5 @@
 //
-//  WolfieApp.swift
+//  StratovariusApp.swift
 //  Stratovarius
 //
 //  Created by Marcelo de Araujo on 03/11/2022.

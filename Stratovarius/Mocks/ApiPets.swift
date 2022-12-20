@@ -30,7 +30,7 @@ let PET_GOLDIE = ApiPetSingle(
     name: "Goldie",
     kind: .Dog,
     microchip: "616000000000000",
-    image: "https://uploads.wolfie.app/SU1HXzQ0MTUtMTY2NDczNTE0ODg4Mw.jpg",
+    image: "https://uploads..app/SU1HXzQ0MTUtMTY2NDczNTE0ODg4Mw.jpg",
     currentWeight: WEIGHT_142,
     birthDate: Date(timeIntervalSince1970: 1644663600),
     healthLog: 8,
